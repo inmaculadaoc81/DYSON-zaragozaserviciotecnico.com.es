@@ -1,0 +1,14 @@
+/* Cabecera DyLab: grafito con logotipo blanco y acento plata. */
+header,header.scrolled{background:#111827!important;border-bottom:1px solid rgba(255,255,255,.10)!important;box-shadow:0 6px 24px rgba(11,17,32,.18)}
+header .nav-wrap{max-width:1240px;min-height:82px}
+header .logo{gap:11px}
+header .logo-icon{width:44px;height:44px;filter:drop-shadow(0 5px 12px rgba(0,0,0,.14))}
+header .logo-word{color:#fff}
+header .logo-word em{color:#A9BDD3}
+header .main-nav>a:not(.mobile-nav-cta){color:#fff}
+header .main-nav>a:not(.mobile-nav-cta):hover,header .main-nav>a:not(.mobile-nav-cta):focus-visible{color:#A9BDD3}
+header .menu-toggle{color:#fff;background:transparent;border:0}
+header .nav-cta .btn-primary,header .main-nav .mobile-nav-cta{background:linear-gradient(125deg,#3E4C61,#334155);color:#fff;border:1px solid rgba(255,255,255,.18);box-shadow:0 7px 20px rgba(51,65,85,.32)}
+header .nav-cta .btn-primary:hover,header .main-nav .mobile-nav-cta:hover{background:linear-gradient(125deg,#1E293B,#0F172A)}
+@media(max-width:980px){header nav.main-nav{background:#111827;border-top-color:rgba(255,255,255,.16)}}
+@media(max-width:640px){header .nav-wrap{min-height:70px}header .logo-icon{width:40px;height:40px}}

@@ -19,7 +19,7 @@ nav.main-nav > a[href="#beneficios"]{display:none;}
 @media (min-width:981px){nav.main-nav .mobile-nav-cta{display:none;}}
 @media (max-width:420px){.nav-wrap{padding:12px 16px;}.logo-img{max-width:175px;height:auto;max-height:36px;}}
 
-/* Ajustes del hero en móvil sin desplazamiento horizontal (tamaño del H1 unificado en dysonplus.css). */
+/* Ajustes del hero en móvil sin desplazamiento horizontal (tamaño del H1 unificado en dylab.css). */
 @media (max-width:640px){
   .hero{background:linear-gradient(180deg,#F6F5F7 0%,#FCFCFD 21%,#fff 40%,#fff 66%,#F8F7F9 84%,#EDECEF 100%);}
   .hero-glow{width:70vw;height:165px;max-width:70vw;filter:blur(34px);opacity:.48;animation:none;}
